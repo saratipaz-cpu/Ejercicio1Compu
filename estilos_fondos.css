@@ -1,8 +1,7 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    background: url(pato.jpg);   
-    background-size: cover;
-    background-position: 0 0, center;
-    
+    background: url("pato.jpg") no-repeat center center;
+    background-size: cover;   /* ocupa toda la pantalla */
+    background-attachment: fixed; /* hace que no se mueva al hacer scroll */
 }
